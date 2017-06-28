@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Route} from 'react-router-dom';
-import Home from './Home';
-// import registerServiceWorker from './registerServiceWorker';
+import NavBar from './NavBar';
 
-ReactDOM.render(<Home />, document.getElementById('root'));
-// registerServiceWorker();
+ReactDOM.render(
+  <NavBar />,
+  document.getElementById('root')
+);
